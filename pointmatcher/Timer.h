@@ -74,6 +74,7 @@ namespace PointMatcherSupport
 	};
 } // namespace PointMatcherSupport
 #else // _POSIX_TIMERS
+#define BOOST_TIMER_ENABLE_DEPRECATED
 #include <boost/timer.hpp>
 namespace PointMatcherSupport
 {
